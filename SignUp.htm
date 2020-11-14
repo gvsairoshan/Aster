@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>SignUp Page</title>
+        <style>
+            td{
+                vertical-align: center;
+            }
+            td,th{
+                padding: 10px;
+            }
+            input[type=text], input[type=password]{
+                padding: 15px;
+                background: #f1f1f1;
+                border: none;
+                border-radius: 6px;
+            }
+            input[type=text]:focus, input[type=password]:focus {
+                background-color: #ddd;
+                outline: none;
+            }
+            .but {
+                background-color: #4CAF50;
+                color: white;
+                padding: 10px 30px;
+                cursor: pointer;
+                opacity: 0.9;
+                border-radius: 6px;
+                font-size: 20px;
+            }
+            .but:hover {
+                 opacity:1;
+            }
+            body {
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: #333;
+            }
+
+            li a {
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+
+            li a:hover {
+                background-color: #111;
+            }
+
+        </style>
+    </head>
+    <body>
+
+    <header>
+        <ul>
+            <li style="float: left;"><a href=#homepage>Home</a></li>
+            <li style="float: left;"><a href="About us">About Us</a></li>
+            <li style="float: right;"><a href="#login page">Login</a></li>
+            <li style="float: right;"><a href="file:///E:/roshan/Aster%20Project/SignUp.htm">Signup</a></li>
+        </ul>
+    </header>
+    <form>
+        <table border='0px' align='center'>
+            <tr>
+                <th colspan='2' align='center'><h1><b>SignUp</b></h1></th>
+            </tr>
+            <tr>
+                <td><label align="right"><b>Event Name</b></label></td>
+                <td><input type='text' placeholder="Enter Event Name"></td>
+            </tr>
+            <tr>
+                <td><label><b>Username</b><label></td>
+                <td><input type='text' placeholder="Enter Username"></td>
+            <tr>
+                <td><label><b>Password</b><label></td>
+                <td><input type='password' placeholder="Enter Password"></td>
+            </tr>
+            <tr>
+                <td><label><b>Confirm Password</b></label></td>
+                <td><input type='password' placeholder="Re-enter Password"></td>
+            </tr>
+            <tr>
+                <td><label><b>Phone Number</b></label></td>
+                <td><input type="text" placeholder="Enter Phone Number"></td>
+            </tr>
+            <tr>
+                <td><label><input type="checkbox" checked="checked" name="remember" style="cursor: pointer;"> Remember me</label></td>
+            </tr>
+            <tr>
+                <td><button  class="but" type='submit' align='center'>Sign up</button></td>
+                <td><input type='reset' value='Reset' class="but" style="background-color: #f44336; margin-left: 40px; padding: 10px 37px;" align='center'></td>
+            </tr>
+
+        </table>
+    </form>    
+    </body>
+</html>
